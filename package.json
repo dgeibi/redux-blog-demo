@@ -1,0 +1,67 @@
+{
+  "name": "redux-blog-demo",
+  "version": "0.0.1",
+  "description": "a redux example",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack --env.production",
+    "start": "webpack-dev-server --hot --inline --content-base .",
+    "format": "prettier-eslint --write 'src/**/*.js' 'test/**/*.js' './*.js'"
+  },
+  "author": "arcthur",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "history": "^4.6.3",
+    "isomorphic-fetch": "^2.2.1",
+    "package.json": "^2.0.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "redux": "^3.7.1",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-react-css-modules": "^3.0.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^4.2.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier-eslint-cli": "^4.1.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgeibi/redux-blog-demo.git"
+  },
+  "keywords": [
+    "redux",
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/dgeibi/redux-blog-demo/issues"
+  },
+  "homepage": "https://github.com/dgeibi/redux-blog-demo#readme"
+}

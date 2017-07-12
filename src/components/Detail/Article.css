@@ -1,0 +1,11 @@
+.message {
+  color: yellowgreen
+}
+
+.date, .article, .title {
+  font-family: Iosevka, monospace
+}
+
+.desc {
+  color: grey
+}

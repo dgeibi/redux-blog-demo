@@ -1,0 +1,16 @@
+{
+  "articleList": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum",
+      "description": "consectetur adipiscing elit",
+      "date": "2016-04-17"
+    },
+    {
+      "id": 2,
+      "title": "Praesent eu",
+      "description": "Donec hendrerit",
+      "date": "2015-07-09"
+    }
+  ]
+}
