@@ -66,7 +66,7 @@ function loadArticlesFail(error) {
 }
 
 export const fetchArticles = createFetchAction(
-  '/api/articles.json',
+  'api/articles.json',
   loadArticles,
   loadArticlesSuccess,
   loadArticlesFail

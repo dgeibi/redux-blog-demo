@@ -57,7 +57,7 @@ const loadArticleError = error => ({
   error
 })
 
-const getURL = id => `/api/article/${id}.json`
+const getURL = id => `api/article/${id}.json`
 
 export const fetchArticle = createFetchAction(
   getURL,
